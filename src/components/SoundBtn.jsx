@@ -1,3 +1,8 @@
-export default function SoundBtn() {
-    return <button>SoundBtn</button>
+export default function SoundBtn({name}) {
+
+    return (
+        <button>
+            {name}
+        </button>
+        )
 }

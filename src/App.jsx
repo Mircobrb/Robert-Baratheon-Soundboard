@@ -1,4 +1,4 @@
-import robby from './assets/robby.png'
+import Navbar from './components/Navbar.jsx'
 import './App.css'
 import SoundBtn from './components/SoundBtn.jsx'
 
@@ -7,10 +7,35 @@ function App() {
   return (
     <>
       <div className=''>
-        <h1>The only King</h1>
-        <img src={robby} className="logo" alt="robby logo" />
+        <Navbar />
       </div>
-      <SoundBtn />
+      <div className='sounds-list'>
+        <SoundBtn name="hello"/>
+        <SoundBtn name="uao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+        <SoundBtn name="ciao"/>
+      </div>
     </>
   )
 }
